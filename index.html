@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>TO-DO List</title>
+
+    <!-- bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      href="/docs/5.2/assets/img/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.2/assets/img/favicons/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.2/assets/img/favicons/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg"
+      color="#712cf9"
+    />
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico" />
+    <meta name="theme-color" content="#712cf9" />
+
+    <!-- my links -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="list-group w-auto">
+      <label class="list-group-item d-flex gap-3">
+        <input
+          class="form-check-input flex-shrink-0"
+          type="checkbox"
+          value=""
+          checked
+          style="font-size: 1.375em"
+        />
+        <span class="pt-1 form-checked-content">
+          <strong>Finish sales report</strong>
+          <small class="d-block text-muted">
+            <svg class="bi me-1" width="1em" height="1em">
+              <use xlink:href="#calendar-event" />
+            </svg>
+            1:00–2:00pm
+          </small>
+        </span>
+      </label>
+      <label class="list-group-item d-flex gap-3">
+        <input
+          class="form-check-input flex-shrink-0"
+          type="checkbox"
+          value=""
+          style="font-size: 1.375em"
+        />
+        <span class="pt-1 form-checked-content">
+          <strong>Weekly All Hands</strong>
+          <small class="d-block text-muted">
+            <svg class="bi me-1" width="1em" height="1em">
+              <use xlink:href="#calendar-event" />
+            </svg>
+            2:00–2:30pm
+          </small>
+        </span>
+      </label>
+      <label class="list-group-item d-flex gap-3">
+        <input
+          class="form-check-input flex-shrink-0"
+          type="checkbox"
+          value=""
+          style="font-size: 1.375em"
+        />
+        <span class="pt-1 form-checked-content">
+          <strong>Out of office</strong>
+          <small class="d-block text-muted">
+            <svg class="bi me-1" width="1em" height="1em">
+              <use xlink:href="#alarm" />
+            </svg>
+            Tomorrow
+          </small>
+        </span>
+      </label>
+      <label class="list-group-item d-flex gap-3 bg-light">
+        <input
+          class="form-check-input form-check-input-placeholder bg-light flex-shrink-0 pe-none"
+          disabled
+          type="checkbox"
+          value=""
+          style="font-size: 1.375em"
+        />
+        <span class="pt-1 form-checked-content">
+          <span contenteditable="true" class="w-100">Add new task...</span>
+          <small class="d-block text-muted">
+            <svg class="bi me-1" width="1em" height="1em">
+              <use xlink:href="#list-check" />
+            </svg>
+            Choose list...
+          </small>
+        </span>
+      </label>
+    </div>
+
+    <!-- bootstap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <footer>Kneil Raven @ 2022</footer>
+</html>
